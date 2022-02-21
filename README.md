@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @jack9398
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-jack9398/jack9398 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    printf("10:");
+    scanf("%d",&n);
+    printf("First n natural numbers in descending order %d:\n",n);
+    for(i=n;i>0;i--)
+    {
+        printf("%d",i);
+    }
+    return 0;
+}
